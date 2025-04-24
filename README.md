@@ -8,7 +8,7 @@ This project is a **Network Anomaly Detection Dashboard** built with [Streamlit]
 - **Visualization**: Interactive graphs (using NetworkX and Matplotlib) and anomaly frequency charts (using Plotly).
 - **Rule-Based Anomaly Detection**: Detect anomalies with customizable rules for protocols like HTTP, DNS, FTP, etc.
 - **Performance Metrics**: Evaluate detection performance with accuracy, precision, recall, F1-score, and confusion matrix.
-- **Attack Simulation**: Simulate attack scenarios (e.g., DoS, Port Errors, Suspicious Ports) and download generated traffic data.
+- **Attack Simulation**: Simulate the attack scenarios (e.g., DoS, Port Errors, Suspicious Ports) and download generated traffic data.
 
 ## Prerequisites
 - Python 3.8 or higher
