@@ -297,7 +297,7 @@ if uploaded_file or st.button("Use Default Dataset"):
     # Rule-Based Results
     normal_df = df[df['anomaly_flags'] == "Normal"]
     anomalous_df = df[df['anomaly_flags'] != "Normal"]
-    st.subheader("Rule-Based Anomalies")
+    st.subheader("Anomalies")
     
     if not anomalous_df.empty:
         display_df = anomalous_df[['src_ip', 'dst_ip', 'dst_port', 'duration', 'src_bytes',
